@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Renjomoto Assignment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+	 <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+	 <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+	 <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="content">
+	<div class="panel" id="login">
+		<h2>Add New Contact</h2>
+		<form action="/login" method="post" role="form">
+			<input name="_csrf" type="hidden">
+			<div class="form-group">
+				<label for="email">Name</label>
+				<!-- <div class="input-icon icon-username"></div> -->
+				<input autofocus="true" class="form-control" id="email" name="email" placeholder="Name" type="text">
+			</div>
+			<div class="form-group">
+				<label for="password">DOB</label>
+				<!-- <div class="input-icon icon-password"></div> -->
+				<input autocomplete="off" class="form-control password" id="password" name="password" placeholder="Password" type="password">
+			</div>
+			<div class="form-group">
+				<label for="password">Mobile Number</label>
+				<!-- <div class="input-icon icon-password"></div> -->
+				<input autocomplete="off" class="form-control password" id="mobile" name="Mobile Number" placeholder="Mobile Number" type="number">
+			</div>
+			<div class="form-group">
+				<label for="email">Email address</label>
+				<!-- <div class="input-icon icon-username"></div> -->
+				<input autofocus="true" class="form-control" id="email" name="email" placeholder="Email address" type="email">
+				<div><ion-icon name="add-circle-outline"></ion-icon></div>
+			</div>
+			<button class="btn btn-primary btn-lg btn-block" name="commit" type="submit" value="Log In">Save</button>
+		</form>
+	</div>
+</div>
+<div><ion-icon name="add-circle-outline"></ion-icon></div>
+</body>
+</html>

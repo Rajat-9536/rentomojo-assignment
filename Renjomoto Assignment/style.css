@@ -1,0 +1,193 @@
+.h3
+{
+	visibility: visible;
+}
+.content
+{
+font-family: benton-sans,'Helvetica Neue',helvetica,arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857;
+/*text-align: center;*/
+box-sizing: border-box;
+margin-bottom: 70px;
+color: #0e0e0e;
+}
+.container .panel {
+    color: #121315;
+}
+.panel {
+    max-width: 430px;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+/*.container .content, .container .content> {
+    margin-bottom: 90px;
+    color: #fff;
+}*/
+.container {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+    /*display: flex;*/
+}
+.form-group {
+    margin-bottom: 15px;
+}
+/*form .input-icon.icon-username {
+    background: url(../icon-username.png);
+    background-repeat: repeat;
+}*/
+/*form .input-icon {
+    position: absolute;
+    bottom: 13px;
+    margin-top: -9px;
+    left: 12px;
+    width: 18px;
+    height: 18px;
+}*/
+form input[type="text"], form input[type="email"], form input[type="password"], form input[type="number"] {
+    height: 44px;
+    padding-left: 50px;
+}
+.form-control {
+    box-shadow: inset 0 1px 2px rgba(203,203,210,0.4);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #3f3f44;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #cbcbd2;
+    border-radius: 4px;
+}
+
+input {
+    line-height: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+form .btn {
+    border: 1px solid transparent;
+}
+.btn-lg, .btn-group-lg>.btn {
+    font-weight: normal;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #27a223;
+}
+.btn {
+	padding-top: 7px;
+	padding-bottom: 7px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.btn-block {
+	float: right;
+    display: block;
+    /*width: 100%;*/
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.btn-secondary
+{
+	width: 80%;
+
+}
+.dropdo
+{
+	display: grid;
+	width: 100%;
+}
+
+
+
+
+
+form label {
+    text-align: left;
+    width: 100%;
+}
+form label {
+    color: #62748e;
+    font-size: 12px;
+    font-weight: bold;
+}
+label {
+	text-align: center;
+    font-weight: normal;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+ion-icon
+{
+	visibility: visible;
+}
+
+.form-group img
+{
+	margin-top: 0.3rem;
+	margin-left: 1rem;
+	height: 2.5rem;
+	size: 1rem;
+}
+
+.btn-group
+{
+	margin-bottom: 1rem;
+}
+.add-button img
+{
+	size: 1rem;
+	height: 2.5rem;
+	float: right;
+	border-radius: 2px;
+}
+
+.drop-button
+{
+	display: block;
+    /* width: 100%; */
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+	padding-bottom: 1px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
